@@ -21,13 +21,6 @@ void bubble_sort(int *array, size_t size)
 				array[j] = tmp;
 			}
 		}
-		k = 0;
-		for ( ; k < size; k++)
-		{
-			if (k > 0)
-				printf(", ");
-			printf("%d", array[k]);
-		}
-		printf("\n");
+		print_array(array, size);
 	}
 }
