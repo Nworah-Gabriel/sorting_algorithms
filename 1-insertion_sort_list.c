@@ -1,8 +1,7 @@
 #include "sort.h"
 
 /**
- *insertion_sort_list - sort doubly 
-  linked list in asending 
+ *insertion_sort_list - sort doubly linked list in asending
  *@list: double ptr to the head of linked list
  */
 void insertion_sort_list(listint_t **list)
